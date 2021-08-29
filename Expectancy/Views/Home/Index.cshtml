@@ -1,4 +1,4 @@
-﻿@model Decision
+﻿@model GameEngine
 @{
     ViewData["Title"] = "Expectancy";
 }
@@ -6,14 +6,14 @@
 <div class="text-center">
     <h1 class="display-4">Expectancy</h1>
 
-    @Html.EditorForModel()
+    @*@Html.EditorForModel()*@
 
-    @*@if(Model.HasGame)
+    @if(Model.HasSave)
     {
         <p>Theres a game in play</p>
     }
     else
     {
         <p>Start a new game?</p>
-    }*@
+    }
 </div>

@@ -14,7 +14,8 @@ namespace Expectancy.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly DataHelper _dataHelper;
-        private readonly string sessionkey = "savedata";
+        private readonly string savekey = "savedata";
+        private readonly string gamekey = "gameengine";
 
         public HomeController(ILogger<HomeController> logger, DataHelper dataHelper)
         {
@@ -24,7 +25,12 @@ namespace Expectancy.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var engine = HttpContext.Session.Get<GameEngine>(gamekey);
+
+            if (engine == null)
+                engine = new GameEngine();
+
+            return View(engine);
         }
 
         public IActionResult NewGame()
@@ -34,13 +40,17 @@ namespace Expectancy.Controllers
 
         public IActionResult ContinueGame()
         {
-            var id = HttpContext.Session.Get<int>(sessionkey);
+            var id = HttpContext.Session.Get<int>(savekey);
             return MakeChoice(id);
         }
 
         public IActionResult MakeChoice(int id)
         {
-            HttpContext.Session.Set(sessionkey, id);
+            var engine = HttpContext.Session.Get<GameEngine>(gamekey);
+            engine.HasSave = true;
+            HttpContext.Session.Set(gamekey, engine);
+            
+            HttpContext.Session.Set(savekey, id);
             var decision = _dataHelper.Get(id);
             return PartialView("Decision", decision);
         }
