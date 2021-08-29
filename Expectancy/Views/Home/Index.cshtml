@@ -1,8 +1,19 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Decision
+@{
+    ViewData["Title"] = "Expectancy";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Expectancy</h1>
+
+    @Html.EditorForModel()
+
+    @*@if(Model.HasGame)
+    {
+        <p>Theres a game in play</p>
+    }
+    else
+    {
+        <p>Start a new game?</p>
+    }*@
 </div>

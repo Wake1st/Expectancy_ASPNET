@@ -1,0 +1,14 @@
+﻿@model Decision
+
+<div>
+    <h3>@Model.Title</h3>
+
+    <p>@Model.Description</p>
+
+    @foreach(var option in Model.Options)
+    {
+        <a asp-route-id="@option.Id" class="btn">
+            <p>@option.Text</p>
+        </a>
+    }
+</div> 
