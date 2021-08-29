@@ -25,34 +25,39 @@ namespace Expectancy.Controllers
 
         public IActionResult Index()
         {
-            var engine = HttpContext.Session.Get<GameEngine>(gamekey);
+            var vm = HttpContext.Session.Get<HomeViewModel>(gamekey);
 
-            if (engine == null)
-                engine = new GameEngine();
+            if (vm == null)
+                vm = new HomeViewModel();
 
-            return View(engine);
+            return View(vm);
         }
 
         public IActionResult NewGame()
         {
-            return MakeChoice(0);
+            var vm = new HomeViewModel();
+            vm.HasGame = true;
+            HttpContext.Session.Set(gamekey, vm);
+
+            return View("Index",vm);
         }
 
         public IActionResult ContinueGame()
         {
-            var id = HttpContext.Session.Get<int>(savekey);
-            return MakeChoice(id);
+            var vm = new HomeViewModel();
+            vm.HasGame = true;
+            vm.GameEngine = HttpContext.Session.Get<GameEngine>(gamekey);
+
+            return View("Index",vm);
         }
 
         public IActionResult MakeChoice(int id)
         {
-            var engine = HttpContext.Session.Get<GameEngine>(gamekey);
-            engine.HasSave = true;
-            HttpContext.Session.Set(gamekey, engine);
+            var engine = HttpContext.Session.Get<GameEngine>(savekey);
+            engine.CurrentDecision = _dataHelper.Get(id);
+            HttpContext.Session.Set(savekey, engine);
             
-            HttpContext.Session.Set(savekey, id);
-            var decision = _dataHelper.Get(id);
-            return PartialView("Decision", decision);
+            return PartialView("Decision", engine.CurrentDecision);
         }
 
         public IActionResult Privacy()

@@ -7,8 +7,12 @@ namespace Expectancy.Models
 {
     public class GameEngine
     {
-        public bool HasSave { get; set; }
-        public int CurrentDecision { get; set; }
-        public List<Option> Choices { get; set; }
+        public GameEngine()
+        {
+            CurrentDecision = new Decision();
+            CurrentDecision.Id = 0;
+        }
+
+        public Decision CurrentDecision { get; set; }
     }
 }

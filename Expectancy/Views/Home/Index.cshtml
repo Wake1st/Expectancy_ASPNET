@@ -1,4 +1,4 @@
-﻿@model GameEngine
+﻿@model HomeViewModel
 @{
     ViewData["Title"] = "Expectancy";
 }
@@ -6,14 +6,24 @@
 <div class="text-center">
     <h1 class="display-4">Expectancy</h1>
 
-    @*@Html.EditorForModel()*@
-
-    @if(Model.HasSave)
+    @if(Model.HasGame)
     {
         <p>Theres a game in play</p>
+        @Html.EditorFor(model => model.GameEngine)
     }
     else
     {
-        <p>Start a new game?</p>
+        <a asp-controller="Home" asp-action="NewGame" class="">Begin Your Journey</a>
     }
 </div>
+
+<style>
+    body {
+        background-color: #010e2b;
+        color: #89b8f1;
+    }
+    a {
+        color: #89b8f1;
+        text-decoration: none;
+    }
+</style>
