@@ -4,7 +4,7 @@
     ViewData["Title"] = "Expectancy";
 }
 
-<div class="text-center game-ui">
+<div class="text-center" id="game-container">
     <div id="decision">
         @Html.Partial("Decision")
     </div>
@@ -21,9 +21,9 @@ a {
     text-decoration: none;
 }
 
-game-container {
+#game-container {
     width: 40%;
-    margin: auto 0;
+    margin: 20% auto 0 auto;
 }
 </style>
 

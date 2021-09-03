@@ -8,9 +8,13 @@
 
         <p>@Model.Description</p>
 
-        @foreach (var option in Model.Options)
-        {
-            <input class="btn btn-dark btn-choice" type="button" id="choice_@option.Id" value="@option.Text" />
-        }
+        <div class="justify-content-center">
+            @foreach (var option in Model.Options)
+            {
+                <div class="m-1 col-12">
+                    <input class="btn btn-dark btn-choice text-wrap" type="button" id="choice_@option.Id" value="@option.Text" />
+                </div>
+            }
+        </div>
     </form>
 </div> 

@@ -1,7 +1,7 @@
 ﻿(async () => {
-    const ui = document.querySelector('.game-ui');
+    const gameContainer = document.getElementById('game-container');
 
-    ui.addEventListener("click", (e) => {
+    gameContainer.addEventListener("click", (e) => {
         if ($(e.target).hasClass('btn-choice'))
             callDecision(e.target);
         else
