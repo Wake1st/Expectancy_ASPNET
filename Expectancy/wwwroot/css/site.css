@@ -71,5 +71,61 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-/* Custom
+/* Animations
 ---------------------------------------------------*/
+:root {
+  --fade-in: fadeIn ease 2s;
+}
+
+
+.fade-in {
+  animation: var(--fade-in);
+  -webkit-animation: var(--fade-in);
+  -moz-animation: var(--fade-in);
+  -o-animation: var(--fade-in);
+  -ms-animation: var(--fade-in);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
