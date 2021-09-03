@@ -25,7 +25,7 @@ namespace Expectancy.Helpers
 
             if (!_memoryCache.TryGetValue(cachekey, out decisions))
             {
-                decisions = JsonConvert.DeserializeObject<List<Decision>>(File.ReadAllText("~/Data/Decisions.js"));
+                decisions = JsonConvert.DeserializeObject<List<Decision>>(File.ReadAllText("./Data/Decisions.js"));
 
                 _memoryCache.Set(
                     cachekey,

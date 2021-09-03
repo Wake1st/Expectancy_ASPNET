@@ -1,0 +1,16 @@
+﻿@model Decision
+
+<div>
+    <form asp-action="MakeChoice" id="form">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <h3>@Model.Title</h3>
+
+        <p>@Model.Description</p>
+
+        @foreach (var option in Model.Options)
+        {
+            <input class="btn btn-dark btn-choice" type="button" id="choice_@option.Id" value="@option.Text" />
+        }
+    </form>
+</div> 

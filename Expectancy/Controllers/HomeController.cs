@@ -25,18 +25,23 @@ namespace Expectancy.Controllers
 
         public IActionResult Index()
         {
-            var vm = HttpContext.Session.Get<HomeViewModel>(gamekey);
+            //var vm = HttpContext.Session.Get<HomeViewModel>(gamekey);
 
-            if (vm == null)
-                vm = new HomeViewModel();
+            //if (vm == null)
+            //    vm = new HomeViewModel();
 
-            return View(vm);
+            var decision = _dataHelper.Get(0);
+
+            return View(decision);
         }
 
         public IActionResult NewGame()
         {
             var vm = new HomeViewModel();
             vm.HasGame = true;
+            vm.GameEngine = new GameEngine();
+            vm.GameEngine.CurrentDecision = _dataHelper.Get(0);
+
             HttpContext.Session.Set(gamekey, vm);
 
             return View("Index",vm);
@@ -46,19 +51,37 @@ namespace Expectancy.Controllers
         {
             var vm = new HomeViewModel();
             vm.HasGame = true;
-            vm.GameEngine = HttpContext.Session.Get<GameEngine>(gamekey);
+            vm = HttpContext.Session.Get<HomeViewModel>(gamekey);
 
             return View("Index",vm);
         }
 
-        public IActionResult MakeChoice(int id)
+        [HttpGet]
+        public IActionResult Decision(int id)
         {
-            var engine = HttpContext.Session.Get<GameEngine>(savekey);
-            engine.CurrentDecision = _dataHelper.Get(id);
-            HttpContext.Session.Set(savekey, engine);
-            
-            return PartialView("Decision", engine.CurrentDecision);
+            var decision = _dataHelper.Get(id);
+
+            //var vm = HttpContext.Session.Get<HomeViewModel>(gamekey);
+            //vm.GameEngine.CurrentDecision = decision;
+            //HttpContext.Session.Set(gamekey, vm);
+
+            return PartialView(decision);
         }
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult MakeChoice(int id, [Bind("CurrentDecision")] GameEngine engine)
+        //{
+        //    var decision = _dataHelper.Get(id);
+        //    engine.CurrentDecision = decision;
+
+        //    var vm = HttpContext.Session.Get<HomeViewModel>(gamekey);
+        //    vm.GameEngine = engine;
+
+        //    HttpContext.Session.Set(gamekey, vm);
+
+        //    return PartialView("Decision", decision);
+        //}
 
         public IActionResult Privacy()
         {

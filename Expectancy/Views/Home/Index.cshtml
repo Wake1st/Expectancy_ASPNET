@@ -1,29 +1,33 @@
-﻿@model HomeViewModel
+﻿@model Decision
+
 @{
     ViewData["Title"] = "Expectancy";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Expectancy</h1>
-
-    @if(Model.HasGame)
-    {
-        <p>Theres a game in play</p>
-        @Html.EditorFor(model => model.GameEngine)
-    }
-    else
-    {
-        <a asp-controller="Home" asp-action="NewGame" class="">Begin Your Journey</a>
-    }
+<div class="text-center game-ui">
+    <div id="decision">
+        @Html.Partial("Decision")
+    </div>
 </div>
 
 <style>
-    body {
-        background-color: #010e2b;
-        color: #89b8f1;
-    }
-    a {
-        color: #89b8f1;
-        text-decoration: none;
-    }
+body {
+    background-color: #010e2b;
+    color: #89b8f1;
+}
+
+a {
+    color: #89b8f1;
+    text-decoration: none;
+}
+
+game-container {
+    width: 40%;
+    margin: auto 0;
+}
 </style>
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<script type="text/javascript" src="~/js/engine.js"></script>
+}
