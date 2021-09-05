@@ -27,6 +27,9 @@ namespace Expectancy.Controllers
             var decisionId = HttpContext.Session.Get<int>(savekey);
             var decision = _dataHelper.Get(decisionId);
 
+            if (decision == null)
+                return NotFound();
+
             return View(decision);
         }
 

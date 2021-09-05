@@ -1,0 +1,545 @@
+[
+    {
+        "id": 0,
+        "title": "Beginning",
+        "description": "You've been hired to move some furniture out of the old house, just outside of town.",
+        "options": [
+            {
+                "id": 1,
+                "text": "It's just some furniture..."
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "description": "When you arrive, you park the van and knock on the front door. You wait a few minutes, but no one answers. What will you do?",
+        "options": [
+            {
+                "id": 1000,
+                "text": "Just keep knocking; maybe they didn't hear you."
+            },
+            {
+                "id": 2000,
+                "text": "Look around the house - there might be a back door or something."
+            },
+            {
+                "id": 3000,
+                "text": "Just wait by the van."
+            }
+        ]
+    },
+    {
+        "id": 1000,
+        "description": "You knock a few times more and wait. You knock several times more and wait. If someone's home, they can't seem to hear you.",
+        "options": [
+            {
+                "id": 1100,
+                "text": "They'll hear you if you knock loud enough."
+            },
+            {
+                "id": 1400,
+                "text": "Just look around the house; someone's bound to be home."
+            },
+            {
+                "id": 1700,
+                "text": "Try the handle."
+            }
+        ]
+    },
+    {
+        "id": 2000,
+        "description": "You walk around the side of the house. Just as you turn the corner, you get a glimspe of someone dissappearing behind the back of the house.",
+        "options": [
+            {
+                "id": 2100,
+                "text": "Call out to them!"
+            },
+            {
+                "id": 2500,
+                "text": "Follow, but quietly."
+            }
+        ]
+    },
+    {
+        "id": 3000,
+        "description": "You lean against the van, trying to distract yourself for several minutes. You hear a strange noise nearby.",
+        "options": [
+            {
+                "id": 3100,
+                "text": "Go investigate the noise."
+            },
+            {
+                "id": 3400,
+                "text": "Maybe wait IN the van."
+            },
+            {
+                "id": 3700,
+                "text": "Screw this! Its late and you don't get paid enough - time to leave!"
+            }
+        ]
+    },
+    {
+        "id": 1100,
+        "description": "You continue to knock, fists bearing down hard, beating the door, senselessly, relentlessly, desparate to be heard. 'Why is noone coming? Can't they hear me,' you think to yourself. They did call you, after all.",
+        "options": [
+            {
+                "id": 1110,
+                "text": "It's all just a joke - they're always teasing."
+            },
+            {
+                "id": 1140,
+                "text": "Can anyone hear?"
+            },
+            {
+                "id": 1170,
+                "text": "Knock. Knock. Knock."
+            }
+        ]
+    },
+    {
+        "id": 1400,
+        "description": "You stomp off - searching all sides of the house. You call out here and there, but noone answeres. You find yourself at the front; frustrated, you go back and check around the back of the house more.",
+        "options": [
+            {
+                "id": 1410,
+                "text": "There's gotta be a door somewhere?"
+            },
+            {
+                "id": 1460,
+                "text": "Keep walking around the house - maybe you'll see someone."
+            }
+
+        ]
+    },
+    {
+        "id": 1700,
+        "description": "Much to your embarrassment, the door opens... At least you're inside now, but now what?",
+        "options": [
+            {
+                "id": 1710,
+                "text": "Call out."
+            },
+            {
+                "id": 1760,
+                "text": "Look around."
+            }
+        ]
+    },
+    {
+        "id": 3100,
+        "description": "You head towards the direction of the noise - a dense cluster of trees, near the side of the house. As you approach, you can hear more strange noises, quieter, and more unsettling than the first.",
+        "options": [
+            {
+                "id": 3110,
+                "text": "Enter the forest."
+            },
+            {
+                "id": 3160,
+                "text": "Call out."
+            }
+        ]
+    },
+    {
+        "id": 3400,
+        "description": "You get in the van, a quicker than usual. Closing, and locking, the doors, you don't feel too safe, but definitelly safer than before. Your eyes start to feel heavy...",
+        "options": [
+            {
+                "id": 3410,
+                "text": "Get some rest - you've earned it!"
+            },
+            {
+                "id": 3460,
+                "text": "Oh no; we're leaving now."
+            }
+        ]
+    },
+    {
+        "id": 3700,
+        "description": "You drive away from the spooky house, heading down the winding road that leads back into town. The road comes to a fork; which direction do you choose?",
+        "options": [
+            {
+                "id": 3710,
+                "text": "Right: its a longer route, but a reliable one."
+            },
+            {
+                "id": 3760,
+                "text": "Left is a shortcut, or it should be. It probably is."
+            }
+        ]
+    },
+    {
+        "id": 3760,
+        "description": "You continue down a winding road, traveling unfamiliar terrain. This was absolutely not a shortcut. Suddenly, things start to feel familiar, but the relief you feel is short lived as you find yourself back at the old house. You're not certain how it happened - there's only one road to it, but regardless, you're here now.",
+        "options": [
+            {
+                "id": 3761,
+                "text": "... maybe look up a way out on your phone."
+            },
+            {
+                "id": 3766,
+                "text": "Must leave faster!"
+            }
+        ]
+    },
+    {
+        "id": 3766,
+        "description": "You speed down the winding road; this time there is no fork. Only a road, every curve and bend more worrisome. The enbankment has risen up on both sides - the earth itself seems eager to engulf you.",
+        "options": [
+            {
+                "id": 3767,
+                "text": "Call for help!"
+            },
+            {
+                "id": 3768,
+                "text": "Drive up the embankment!"
+            },
+            {
+                "id": 3769,
+                "text": "FASTER!"
+            }
+        ]
+    },
+    {
+        "id": 3767,
+        "description": "You pull your phone out, eyes dashing quickly between the road and the buttons, and dial 911. You hear it ring, and ring, and ring... and ring... ring... r i n g . . . .    r   i   n   g   .   .   .   .   .   .      As the ringing is drawn out, you begin to hear the many layered voices... and then you hear it, like a mirror of sound, you hear yourself calling out again... and again . . .   a g a i n   .     .     .     .     .     .     .     .     ",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3768,
+        "description": "You head off the road, up the side of the hill. Despite your speed, even as you climb, the hill seems to grown, and the world around you continues the extend, further and further. The jaws of the earth close in, and what little light there was fades out, even the light in the van - sound itself fades. The jaws close shut, and you see nothing, you hear nothing, you feel nothing. In this endless enclosed void, you struggle in your mind to be free, but you have nothing to struggle against... or with which to struggle.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3769,
+        "description": "Faster and faster you go, the road twisting like a snake. You're moving so fast and eratic, you begin to wonder if the road is chasing you. The dashed lines turn solid. The solid lines widen. The embankment is long gone, replaced with a deep, unseen emptiness. None of it matters. Only the road, and its unknowable end. A piercing light shines out, blinding you, stabbing you, tearing at the maddness in your mind. As thunder follows lightning, the crash follows the headlights, and you're sent hurling forth, the glass flickering in the light... you open your eyes, and in searing pain, you barely recognise yourself, lieing next to you, while the asphalt snake slithers away, mocking you with it's infinite length.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3761,
+        "description": "You search for a way back on your phone. As the directions on your phone load, you see an ever increasing, winding path, growing outward, like a maze. You feel yourself enwrapped in the map, it's intricate path. You loose track of where the path begins or ends, but it doesn't matter anymore. All you feel, your state of being, is entangled within the ribons of a path, endless and eternal. All things are upon the path, and path leads to, from, and through all things... You are only a series of paths, leading to nowhere.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3710,
+        "description": "You're quickly back on the highway. There's a sense of comfort being in familiar territory, but that is quickly undone when you notice that the road is blocked off.",
+        "options": [
+            {
+                "id": 3711,
+                "text": "Try to find a different way."
+            },
+            {
+                "id": 3716,
+                "text": "Just ignore it. There's always road cones out for no reason."
+            }
+        ]
+    },
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //}, 
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //}, 
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //        {
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    //{
+    //    "id": ,
+    //    "description": "",
+    //    "options": [
+    //        {
+    //            "id": ,
+    //            "text": ""
+    //        },
+    //    ]
+    //},
+    {
+        "id": -1,
+        "description": "Whoops! Looks like I forgot to write out this part. Sorry, about that. Please, restart the game and choose one of the many paths other paths that await.",
+        "options": [
+            {
+                "id": 0,
+                "text": " - - RESTART - - "
+            },
+        ]
+    },
+]

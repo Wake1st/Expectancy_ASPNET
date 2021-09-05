@@ -13,6 +13,7 @@ namespace Expectancy.Helpers
     {
         private readonly IMemoryCache _memoryCache;
         private readonly string cachekey = "decisions";
+        private readonly int LOOSE_END_ERROR = -1;
 
         public DataHelper(IMemoryCache memoryCache)
         {
@@ -25,7 +26,7 @@ namespace Expectancy.Helpers
 
             if (!_memoryCache.TryGetValue(cachekey, out decisions))
             {
-                decisions = JsonConvert.DeserializeObject<List<Decision>>(File.ReadAllText("./Data/Decisions.js"));
+                decisions = JsonConvert.DeserializeObject<List<Decision>>(File.ReadAllText("./Data/decisions.json"));
 
                 _memoryCache.Set(
                     cachekey,
@@ -36,7 +37,8 @@ namespace Expectancy.Helpers
                 );
             }
 
-            return decisions.FirstOrDefault(d => d.Id == id);
+            var decision = decisions.FirstOrDefault(d => d.Id == id);
+            return decision ?? decisions.FirstOrDefault(d => d.Id == LOOSE_END_ERROR);
         }
     }
 }
