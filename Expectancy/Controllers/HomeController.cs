@@ -58,7 +58,7 @@ namespace Expectancy.Controllers
             return PartialView(decision);
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
