@@ -108,7 +108,6 @@
                 "id": 1460,
                 "text": "Keep walking around the house - maybe you'll see someone."
             }
-
         ]
     },
     {
@@ -253,86 +252,98 @@
             }
         ]
     },
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
+    {
+        "id": 3711,
+        "description": "You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3716,
+        "description": "You drive around the road block, pressing down the highway back to town. The highway banks left, and you see a 18-wheeler stopped in the middle of the highway, it's open, bed trailer carrying a some large piece of lab equiptment. Some people are running from it, a few others are frantically tampering with it. Then the machine splits into multiple forms, and the truck follows, and the road begins to split into a kaleidoscope of roads.",
+        "options": [
+            {
+                "id": 3717,
+                "text": "Back up!"
+            },
+            {
+                "id": 3118,
+                "text": "Witness and be in awe."
+            }
+        ]
+    },
+    {
+        "id": 3717,
+        "description": "You shift into reverse and slam on the gas. The mass of ever increasingly confusing forms of the universe. You try your best to keep the car straight, but you forget that the road just turned. You try to turn, but you overcompensate. The car flips and tumbles into the median. You last moments are filling with confusion, pain, and a sense of falling.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3118,
+        "description": "The growing phenomenon branching more and more objects, like a tree of mirrors, exponentially expanding, until it engulfs you. You feel a sense of folding, then fractilating, until all sensations, all thoughts, even feelings - every piece of you multiplies into millions of fuzzy corners of you, blending into a white noise, screaming at first, then fading into a strange harmony of everything.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3410,
+        "description": "You drift off in your seat, you body weary after working 10 hours. You see two stars in a dark sky; you drift toward them, and begin to disinguish two groups of people: one in lab coats, the other in dark cloaks.",
+        "options": [
+            {
+                "id": 3411,
+                "text": "Move toward the lab coats."
+            },
+            {
+                "id": 3414,
+                "text": "Move toward the dark cloaks."
+            },
+            {
+                "id": 3417,
+                "text": "Whoa... trippy."
+            }
+        ]
+    },
+    {
+       "id": 3411,
+       "description": "You drift to the lab coats; they are working at some, strange machine. Something is happening, but they don't understand what it is. The machine whirs and the light pouring out of it shines brighter. You become imbibed in a haze of light as the scientists begin shouting at each other, taking readings, making adjustments, trying to make sense of things. A beam of energy shoots out, roaring in luminescent anger... then it burst, shattering you into dust.",
+       "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+       ]
+    },
+    {
+       "id": 3414,
+       "description": "You drift to the group in dark cloaks. They stand in a circle, chanting a montra in some forbidden tongue. Someone stands in the middle, eyes glowing red; they seem to be in charge. The brilliant light shinning from the body of the leader grows outward in an glowing, red web. The one in the middle begins to shout orders at the others, all while wrestling with the entangled web. A beam of light bursts from the leader's chest; his body lifts off the ground, limp, like a puppet dangling from the tether of some greater force. The others panic: some begin chanting louder, others run, one curses the indescribable name of some ancient being. The leaders body instantly crumbles into the beam, and the cultists, the room itself, even your own spirit - all are pulled inward toward the center. You are crushed beyond an infantessimal point, ever falling into yourself.",
+       "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+       ]
+    },
+    {
+       "id": 3417,
+       "description": "The light from both groups grows brighter, and fields of light form around each. Both groups become busier, more frantic. As the fields grow, they start to bend and twist, two forms writing about, almost dancing. Eventually, the fields slam into each other, and a beam of thundering energy connects the light source of both groups. The beam seems to reverberate back and forth, violenlty undulating until both lights shatter, and the beam of energy schizmed, tearing open a void of things incomprehensible. The void grows, and swallows you up in a realm of beauty and terror. You become one with all things, and you become nothing at all.",
+       "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+       ]
+    },
     //{
     //    "id": ,
     //    "description": "",
@@ -534,12 +545,12 @@
     //},
     {
         "id": -1,
-        "description": "Whoops! Looks like I forgot to write out this part. Sorry, about that. Please, restart the game and choose one of the many paths other paths that await.",
+        "description": "Whoops! Looks like I forgot to tie up some loose ends; sorry, about that. Please, restart the game and choose one of the many paths other paths that await.",
         "options": [
             {
                 "id": 0,
                 "text": " - - RESTART - - "
-            },
+            }
         ]
-    },
+    }
 ]
