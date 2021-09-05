@@ -47,6 +47,116 @@
         ]
     },
     {
+        "id": 1100,
+        "description": "You continue to knock, fists bearing down hard, beating the door, senselessly, relentlessly, desparate to be heard. 'Why is noone coming? Can't they hear me,' you think to yourself. They did call you, after all.",
+        "options": [
+            {
+                "id": 1110,
+                "text": "It's all just a joke - they're playing with you."
+            },
+            {
+                "id": 1140,
+                "text": "Can anyone hear?"
+            },
+            {
+                "id": 1170,
+                "text": "Knock. Knock. Knock."
+            }
+        ]
+    },
+    {
+        "id": 1110,
+        "description": "You hear their giggling, their taunts - the twisted games they play on you. You've always been nothing to them, nothing but a toy, something they use to amuse themselves. There was never any furniture to move; no old house at the edge of town; no door to bang against; no fists to beat with; no malice; no intent... you were never anything.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1140,
+        "description": "Is anyone really there? Are you even making a sound? All your knocking, your weakened fists helplessly striking the door, feebly playing the drums of acknowledgement, barely making a sound. You are nothing but misaimed intensions: a slow moving projectile, shot from nothing of consequence, going nowhere important... and no one ever really heard you.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1170,
+        "description": "You continue to knock at the door. The pounding of your clenched fists ringing out with greater and greater thunder. You begin to hear that pounding overlap, and soon a chorus, no - a symphony of thunderous roaring. More a drum than a door, more a demand than a request; waves beating against a rock, bearing down all manner of fury. You are only that furry. You are the beating drum. You are the wave breaking against the rocks... soon to break the very earth itself.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1400,
+        "description": "You stomp off - searching all sides of the house. You call out here and there, but noone answeres. You find yourself at the front; frustrated, you go back and check around the back of the house more.",
+        "options": [
+            {
+                "id": 1410,
+                "text": "There's gotta be a door somewhere?"
+            },
+            {
+                "id": 1440,
+                "text": "Keep walking around the house - maybe you'll see someone."
+            },
+            {
+                "id": 1470,
+                "text": "Just leave; you've got better things to do with your time."
+            }
+        ]
+    },
+    {
+        "id": 1410,
+        "description": "There has to be another door! Somewhere, somehow, in the back of the house, on the side. You turn corner after corner, doubling back, searching, peering, hoping to find something. Nothing but flat walls and windows, walls and windows, walls and windows. You're not even certain which side of the house you're on, or if there's even a house anymore. Nothing but walls and windows. You feel around, hoping to catch a handle - even a hinge. Nothing but wall and windows. You're scraping along, digging your nails into the wood, tearing the paint off. There has to be something - anything! Anything but walls and windows. There's nothing anymore; no doors to find, and no one to answer them. You are forever lost in a maze, trapped without a way out. Trapped with nothing; nothing but walls and windows.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1440,
+        "description": "",
+        "options": [
+            {
+                "id":,
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 1470,
+        "description": "You get in the van and drive back down the winding road into town. Things seems different than when you drove out here - it may be darker, but you could have sworn there weren't so many turns in the road. In fact, the road has been turning left now for... how long? A minute goes by, then another. The road continues to turn, round and round, like a carrosel. Maybe you've always been on this road. Maybe there never was a destination, or even a starting point. Nothing but to go round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and a light shines directly into the van. Crash! You're thrown from the van, and after tumbling onto the hard asphalt, you barely recognise yourself, lieing next to you, a mad look in your eyes.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1700,
+        "description": "Much to your embarrassment, the door opens... At least you're inside now, but now what?",
+        "options": [
+            {
+                "id": 1710,
+                "text": "Call out."
+            },
+            {
+                "id": 1760,
+                "text": "Look around."
+            }
+        ]
+    },
+    {
         "id": 2000,
         "description": "You walk around the side of the house. Just as you turn the corner, you get a glimspe of someone dissappearing behind the back of the house.",
         "options": [
@@ -75,52 +185,6 @@
             {
                 "id": 3700,
                 "text": "Screw this! Its late and you don't get paid enough - time to leave!"
-            }
-        ]
-    },
-    {
-        "id": 1100,
-        "description": "You continue to knock, fists bearing down hard, beating the door, senselessly, relentlessly, desparate to be heard. 'Why is noone coming? Can't they hear me,' you think to yourself. They did call you, after all.",
-        "options": [
-            {
-                "id": 1110,
-                "text": "It's all just a joke - they're always teasing."
-            },
-            {
-                "id": 1140,
-                "text": "Can anyone hear?"
-            },
-            {
-                "id": 1170,
-                "text": "Knock. Knock. Knock."
-            }
-        ]
-    },
-    {
-        "id": 1400,
-        "description": "You stomp off - searching all sides of the house. You call out here and there, but noone answeres. You find yourself at the front; frustrated, you go back and check around the back of the house more.",
-        "options": [
-            {
-                "id": 1410,
-                "text": "There's gotta be a door somewhere?"
-            },
-            {
-                "id": 1460,
-                "text": "Keep walking around the house - maybe you'll see someone."
-            }
-        ]
-    },
-    {
-        "id": 1700,
-        "description": "Much to your embarrassment, the door opens... At least you're inside now, but now what?",
-        "options": [
-            {
-                "id": 1710,
-                "text": "Call out."
-            },
-            {
-                "id": 1760,
-                "text": "Look around."
             }
         ]
     },
@@ -220,7 +284,7 @@
     },
     {
         "id": 3769,
-        "description": "Faster and faster you go, the road twisting like a snake. You're moving so fast and eratic, you begin to wonder if the road is chasing you. The dashed lines turn solid. The solid lines widen. The embankment is long gone, replaced with a deep, unseen emptiness. None of it matters. Only the road, and its unknowable end. A piercing light shines out, blinding you, stabbing you, tearing at the maddness in your mind. As thunder follows lightning, the crash follows the headlights, and you're sent hurling forth, the glass flickering in the light... you open your eyes, and in searing pain, you barely recognise yourself, lieing next to you, while the asphalt snake slithers away, mocking you with it's infinite length.",
+        "description": "Faster and faster you go, the road twisting like a snake. You're moving so fast and eratic, you begin to wonder if the road is chasing you. The dashed lines turn solid. The solid lines widen. The embankment is long gone, replaced with a deep, unseen emptiness. None of it matters. Only the road, and its unknowable end. A piercing light shines out, blinding you, stabbing you, tearing at the maddness in your mind. As thunder follows lightning, the crash follows the headlights, and you're sent hurling forth, the glass flickering in the light... you open your eyes, and in searing pain, you barely recognise yourself, lieing next to you, eyes lost in delirium, while the asphalt snake slithers away, mocking you with it's infinite length.",
         "options": [
             {
                 "id": 0,
@@ -315,95 +379,36 @@
         ]
     },
     {
-       "id": 3411,
-       "description": "You drift to the lab coats; they are working at some, strange machine. Something is happening, but they don't understand what it is. The machine whirs and the light pouring out of it shines brighter. You become imbibed in a haze of light as the scientists begin shouting at each other, taking readings, making adjustments, trying to make sense of things. A beam of energy shoots out, roaring in luminescent anger... then it burst, shattering you into dust.",
-       "options": [
+        "id": 3411,
+        "description": "You drift to the lab coats; they are working at some, strange machine. Something is happening, but they don't understand what it is. The machine whirs and the light pouring out of it shines brighter. You become imbibed in a haze of light as the scientists begin shouting at each other, taking readings, making adjustments, trying to make sense of things. A beam of energy shoots out, roaring in luminescent anger... then it burst, shattering you into dust.",
+        "options": [
             {
                 "id": 0,
                 "text": "Maybe things will turn out different next time..."
             }
-       ]
+        ]
     },
     {
-       "id": 3414,
-       "description": "You drift to the group in dark cloaks. They stand in a circle, chanting a montra in some forbidden tongue. Someone stands in the middle, eyes glowing red; they seem to be in charge. The brilliant light shinning from the body of the leader grows outward in an glowing, red web. The one in the middle begins to shout orders at the others, all while wrestling with the entangled web. A beam of light bursts from the leader's chest; his body lifts off the ground, limp, like a puppet dangling from the tether of some greater force. The others panic: some begin chanting louder, others run, one curses the indescribable name of some ancient being. The leaders body instantly crumbles into the beam, and the cultists, the room itself, even your own spirit - all are pulled inward toward the center. You are crushed beyond an infantessimal point, ever falling into yourself.",
-       "options": [
+        "id": 3414,
+        "description": "You drift to the group in dark cloaks. They stand in a circle, chanting a montra in some forbidden tongue. Someone stands in the middle, eyes glowing red; they seem to be in charge. The brilliant light shinning from the body of the leader grows outward in an glowing, red web. The one in the middle begins to shout orders at the others, all while wrestling with the entangled web. A beam of light bursts from the leader's chest; his body lifts off the ground, limp, like a puppet dangling from the tether of some greater force. The others panic: some begin chanting louder, others run, one curses the indescribable name of some ancient being. The leaders body instantly crumbles into the beam, and the cultists, the room itself, even your own spirit - all are pulled inward toward the center. You are crushed beyond an infantessimal point, ever falling into yourself.",
+        "options": [
             {
                 "id": 0,
                 "text": "Maybe things will turn out different next time..."
             }
-       ]
+        ]
     },
     {
-       "id": 3417,
-       "description": "The light from both groups grows brighter, and fields of light form around each. Both groups become busier, more frantic. As the fields grow, they start to bend and twist, two forms writing about, almost dancing. Eventually, the fields slam into each other, and a beam of thundering energy connects the light source of both groups. The beam seems to reverberate back and forth, violenlty undulating until both lights shatter, and the beam of energy schizmed, tearing open a void of things incomprehensible. The void grows, and swallows you up in a realm of beauty and terror. You become one with all things, and you become nothing at all.",
-       "options": [
+        "id": 3417,
+        "description": "The light from both groups grows brighter, and fields of light form around each. Both groups become busier, more frantic. As the fields grow, they start to bend and twist, two forms writing about, almost dancing. Eventually, the fields slam into each other, and a beam of thundering energy connects the light source of both groups. The beam seems to reverberate back and forth, violenlty undulating until both lights shatter, and the beam of energy schizmed, tearing open a void of things incomprehensible. The void grows, and swallows you up in a realm of beauty and terror. You become one with all things, and you become nothing at all.",
+        "options": [
             {
                 "id": 0,
                 "text": "Maybe things will turn out different next time..."
             }
-       ]
+        ]
     },
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //}, 
+
     //{
     //    "id": ,
     //    "description": "",
