@@ -4,6 +4,12 @@
     ViewData["Title"] = "Expectancy";
 }
 
+
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+</div>
+
 <div class="text-center" id="game-container">
     <div id="decision">
         @Html.Partial("Decision")
@@ -11,23 +17,23 @@
 </div>
 
 <style>
-body {
-    background-color: #010e2b;
-    color: #89b8f1;
-}
+    body {
+        background-color: #010e2b;
+        color: #89b8f1;
+    }
 
-a {
-    color: #89b8f1;
-    text-decoration: none;
-}
+    a {
+        color: #89b8f1;
+        text-decoration: none;
+    }
 
-#game-container {
-    width: 40%;
-    margin: 20% auto 0 auto;
-}
+    #game-container {
+        width: 40%;
+        margin: 20% auto 0 auto;
+    }
 </style>
 
 @section Scripts {
-@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-<script type="text/javascript" src="~/js/engine.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript" src="~/js/engine.js"></script>
 }
