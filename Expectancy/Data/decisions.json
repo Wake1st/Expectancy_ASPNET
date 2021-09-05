@@ -96,7 +96,7 @@
     },
     {
         "id": 1400,
-        "description": "You stomp off - searching all sides of the house. You call out here and there, but noone answeres. You find yourself at the front; frustrated, you go back and check around the back of the house more.",
+        "description": "You stomp off - searching all sides of the house. You call out here and there, but noone answeres. You find yourself at the front; frustrated, you cross your arms and stand, stubbornly, seeking out the next best course of action.",
         "options": [
             {
                 "id": 1410,
@@ -124,11 +124,45 @@
     },
     {
         "id": 1440,
-        "description": "",
+        "description": "You march around the house, flustred and upset. You start to mutter to yourself about the house and the furniture and the job... Suddenly, you are face to face with yourself... It's you, standing and staring, at you...",
         "options": [
             {
-                "id":,
-                "text": ""
+                "id": 1441,
+                "text": "Demand to know what's going on."
+            }
+        ]
+    },
+    {
+        "id": 1441,
+        "description": "You shout at them, demanding them to explain this, but they speak when you do, asking the same thing. This isn't funny anymore, just then you hear a russle behind you; you turn to see another you moving from the bushes, and someone else running into the forrest.",
+        "options": [
+            {
+                "id": 1442,
+                "text": "After them!"
+            },
+            {
+                "id": 1446,
+                "text": "Accuse the others!"
+            }
+        ]
+    },
+    {
+        "id": 1442,
+        "description": "You case them, into the woods - they won't get away from you. They're going to pay for this maddness. They fall in the dark, and you leap at them, trapping them beneath you. You wrap your hands around their throat. You scream at them, words forbidden, yet you understand them. You now know perfectly well what's going on, what has always been going on. You hear yourself cry out. You turn to see yourself stepping through the brush. You leap out at them. You take off to kill the other. You sit where you are. You are going to kill them all, and they're all going to kill you...",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1441,
+        "description": "You accuse more, more violently than before. A form passes through you into the woods. What are they planning? They're in it together, they must be! They're moving, positioning, trying to trap you. One of them makes their move, but you're quicker them these fakes. You lunge out, you strike, they fall, and the others quickly join in. They wanted this; now they're going to get it!",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Kill."
             }
         ]
     },
@@ -157,6 +191,26 @@
         ]
     },
     {
+        "id": 1710,
+        "description": "You call out, hoping for a simple answer to settle your nerves. What you hear is only unsettling. Rumbling, shaking, quaking: the door you passed through now rattles violently, like a wild beast trying to tear through it's cage. You feel the floor vibrate, dust falls from the ceiling, and the windows start to shatter. The whole house shakes, mad and rapid, as if it means to shake itself into nothingness. You hear a comotion upstairs, and you turn to see people fighting and fleeing. Everything is blurry now; everything is moving a immeasurable frequencies; everything screams higher and higher; everything is just a smear across the universe.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1760,
+        "description": "You look around, and soon hear voices coming from upstairs. You decide to creep upstairs, toward the voices, their strange chants seem to sink deep in your mind. Things begin to shake, and commotion starts to gather from the room with the voices. The door flings open; people with dark, hooded robes pour out, terrified. One of them charges straight at you. You grapple with them as they speak strange words to you, you try to explain your self, but the words from your mouth are strange as well. You know not what they say, and they seem just as terrified as you. Tangled up, struggling against each other, you both feel your souls pulled out from your bodies, but you are not the souls within - you are only the animals, barking and biting, terrified amists the turmoil. You both scream into each others empty forms; nothing screams back.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
         "id": 2000,
         "description": "You walk around the side of the house. Just as you turn the corner, you get a glimspe of someone dissappearing behind the back of the house.",
         "options": [
@@ -167,6 +221,94 @@
             {
                 "id": 2500,
                 "text": "Follow, but quietly."
+            }
+        ]
+    },
+    {
+        "id": 2100,
+        "description": "You call out, but they do not respond. You begin chasing after them. More nervous than before, you call out again, louder this time. You stop after rounding the next corner to catch your breath... then you hear the muttering comming from behind you. You turn to greet them, but it's you... face to face with you...",
+        "options": [
+            {
+                "id": 2110,
+                "text": "Ask what's going on."
+            }
+        ]
+    },
+    {
+        "id": 2110,
+        "description": "You ask them who they are and what's happening. The other is growing more and more hostile. Another of you apears, then another! The angriest one takes off into the woods, leaving another angry one still standing, facing you. You see a madness in their eyes, you feel it, and fear it, in yourself as well. You're not sure who moves first, but in an instant you're both attacking each other - you're just trying to control the situation, you don't want anyone to get hurt.",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Try not to get hurt."
+            }
+        ]
+    },
+    {
+        "id": 2111,
+        "description": "Maybe it's the strangness of it all, maybe it's something in the air, or maybe you were always this violent, underneath it all. Whatever the reason, you and all forms of yourself fight and break and cry and kill like mad... and every moment, another version of you appears, only to join in the chaos.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 2500,
+        "description": "You creep up along the side of the house, listening, waiting. You hear sounds of someone approaching from behind. You duck behind some bushes, hoping to keep hidden. You catch a glimpse of the person who passes you, muttering under thier breath... they seem unsettlingly familiar. After they pass, you sneak along the house, and peak around the corner into the back. You see yourself, looking at... yourself? Two you's, staring at each other, with as much shock and horror in their faces as you have.",
+        "options": [
+            {
+                "id": 2110,
+                "text": "Step out and confront them."
+            },
+            {
+                "id": 2510,
+                "text": "Stay hidden."
+            }
+        ]
+    },
+    {
+        "id": 2110,
+        "description": "You step out and join the other two. They turn to you, and one of them points back at the bushes. You turn to see another you step out from where you were, and another take off into the woods, followed by another you! You quickly try to manuver yourself to face everyone you can see, but you're not even sure how many of you there are. You begin to panic; the others begin shouting at each other. The confusion is over whelming. One of you moves suddenly, another attacks, and all at once, everyone is fighting each other off.",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Survive."
+            }
+        ]
+    },
+    {
+        "id": 2510,
+        "description": "A form passes through you... it's another you! There are now three, including you! Four yous! This is almost too much to bear - for all of you! Then, one of the yous spots you, and calls out!",
+        "options": [
+            {
+                "id": 2511,
+                "text": "Step out and join the group."
+            },
+            {
+                "id": 2517,
+                "text": "Run!"
+            }
+        ]
+    },
+    {
+        "id": 2511,
+        "description": "You boldly step out. Something russles behind you - you turn to see yourself fleeing into the woods, followed shortly by a different you. The others in the group continue to argue, getting louder and more on edge. Eventually, someone makes a move, and in an instant you're all fighting with yourselves.",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Defend yourself."
+            }
+        ]
+    },
+    {
+        "id": 2517,
+        "description": "You take off into the woods, you hear another you yell at you and begin chasing. In the darkness, amongst unfamiliar terrain, it's only a matter of time before you stumble and fall. You almost leap upwards as fast as you fell, but you are tackled. You lie on your back, looking upwards, the last thing you see is your own mad face staring up at you, strangling you, yelling some horrid, otherworldly words.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
             }
         ]
     },
@@ -199,6 +341,26 @@
             {
                 "id": 3160,
                 "text": "Call out."
+            }
+        ]
+    },
+    {
+        "id": 3110,
+        "description": "You enter the forest, pushing past the bushes and briars. You can hear the terrible sounds increasing, and a familiar voice call out from behind you. You step out into a small clearing, to see a terrifying yet familiar creature strangling someone on the ground. The creature looks at you, its eyes red; its bolts forth at you, and another from behind it! One rushes past as the other lunges at you. You fight it, tumbling onto the groud, wrestling with this wild beast. As it sits atop your, clawing and beating you, you search along the ground. You find something hard and strike the beast in the head. It falls over, limp. You jump upwards, and you hear more violent comotion, coming from all sides. You're going to fight them, and you're going to slay every horrible thing you find out here.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3160,
+        "description": "You call out from the tree line and wait. You can hear something, something moving at you. You suddenly see a pair of glowing red eyes rushing fast at you, but its too late. The thing is upon you, tearing away at you. In searing pain and shock, you can only try to defend youself from it, but it just lashing out, harsher and harsher. Like a wild animal, hungry for blood.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
             }
         ]
     },
@@ -409,76 +571,8 @@
         ]
     },
 
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //}, 
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
-    //{
-    //    "id": ,
-    //    "description": "",
-    //    "options": [
-    //        {
-    //            "id": ,
-    //            "text": ""
-    //        },
-    //    ]
-    //},
+
+
     //{
     //    "id": ,
     //    "description": "",
